@@ -728,11 +728,11 @@ function ding_library_default_page_manager_pages() {
       'css_class' => 'ding-library-contact',
     );
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = '';
     $pane->uuid = 'c05787bc-8016-4669-8c82-10c349af2dea';
     $display->content['new-c05787bc-8016-4669-8c82-10c349af2dea'] = $pane;
-    $display->panels['left_sidebar'][0] = 'new-c05787bc-8016-4669-8c82-10c349af2dea';
+    $display->panels['left_sidebar'][1] = 'new-c05787bc-8016-4669-8c82-10c349af2dea';
     $pane = new stdClass();
     $pane->pid = 'new-71b33eb2-cf7e-4599-a7fb-2958933fe904';
     $pane->panel = 'left_sidebar';
@@ -769,11 +769,11 @@ function ding_library_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 2;
     $pane->locks = '';
     $pane->uuid = '71b33eb2-cf7e-4599-a7fb-2958933fe904';
     $display->content['new-71b33eb2-cf7e-4599-a7fb-2958933fe904'] = $pane;
-    $display->panels['left_sidebar'][1] = 'new-71b33eb2-cf7e-4599-a7fb-2958933fe904';
+    $display->panels['left_sidebar'][2] = 'new-71b33eb2-cf7e-4599-a7fb-2958933fe904';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
